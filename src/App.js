@@ -4,6 +4,7 @@ import IconButton from '@mui/material/IconButton';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedIn from '@mui/icons-material/LinkedIn';
 
 function App() {
   return (
@@ -19,12 +20,12 @@ function App() {
     <FacebookIcon style={{ color: "black" }}/>
   </IconButton>
 
-  {/* <IconButton
-    aria-label="Twitter"
-    onClick={() => window.open('https://twitter.com/yourhandle')}
+  <IconButton
+    aria-label="LinkedIn"
+    onClick={() => window.open('https://www.linkedin.com/company/zindagi-khush-haal-foundation/')}
   >
-    <TwitterIcon style={{ color: "black" }}/>
-  </IconButton> */}
+    <LinkedIn style={{ color: "black" }}/>
+  </IconButton>
 
   <IconButton
     size="large"
